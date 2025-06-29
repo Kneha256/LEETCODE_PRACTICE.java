@@ -13,7 +13,8 @@ class Solution {
             carry=sum/2;
             i--;
             j--;
-        }if(carry!=0) sb.append(carry);
+        }
+        if(carry!=0) sb.append(carry);
         return sb.reverse().toString();
     }
 }
